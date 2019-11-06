@@ -21,9 +21,7 @@ public class Pointer : MonoBehaviour
             progress.fillAmount = 0;
         }
     }
-
     
-
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))

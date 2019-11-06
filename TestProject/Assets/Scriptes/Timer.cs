@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    private float startingTime = 10f;
+    private float startingTime = 150f;
     private float currentTime;
     [SerializeField] private Text timerText;
     [SerializeField] private GameObject endScreen;
@@ -13,7 +13,6 @@ public class Timer : MonoBehaviour
     {
         currentTime = startingTime; 
     }
-
     
     void Update()
     {
